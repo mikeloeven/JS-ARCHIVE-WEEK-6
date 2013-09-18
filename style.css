@@ -1,0 +1,106 @@
+
+/*STYLESHEET*/
+
+	.conf{
+            display: none;        
+        }
+        input{
+            padding : .5em;
+            border-style: inset;
+            border-color: blue;
+            background: cyan;
+            color: #3333ff;
+            width:30.0em;
+        }
+
+        input.email{
+            padding : .5em;
+            border-style: inset;
+            border-color: blue;
+            background: cyan;
+            color: #3333ff;
+            width:32.80em;
+        }
+		input.birthday{
+            padding : .5em;
+            border-style: inset;
+            border-color: blue;
+            background: cyan;
+            color: #3333ff;
+            width:28.5em;
+        }
+        
+        .contentbox{
+             background: #3333ff;
+             border: 0.2em solid darkblue;
+             padding: 3em;
+             padding-bottom: 18em;
+             padding-right: 18em;
+           
+             width:80%;
+         }
+        .label{
+             font: large bold;
+             color: cyan;
+             
+         }
+		.comment {
+		background: cyan;
+		border: 0.2em inset blue;
+		color: rgb(51, 51, 255);
+		overflow: auto;
+		}
+		.Submit1 {
+			border-top: 1px solid #97ccf7;
+			background: #0009ff;
+			background: -webkit-gradient(linear, left top, left bottom, from(#3e5c9c), to(#0009ff));
+			background: -webkit-linear-gradient(top, #3e5c9c, #0009ff);
+			background: -moz-linear-gradient(top, #3e5c9c, #0009ff);
+			background: -ms-linear-gradient(top, #3e5c9c, #0009ff);
+			background: -o-linear-gradient(top, #3e5c9c, #0009ff);
+			width: 14em;
+			-webkit-border-radius: 1px;
+			-moz-border-radius: 1px;
+			border-radius: 1px;
+			-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			box-shadow: rgba(0,0,0,1) 0 1px 0;
+			text-shadow: rgba(0,0,0,.4) 0 1px 0;
+			color: #00ffe1;
+			font-size: 11px;
+			font-family: Georgia, Serif;
+			text-decoration: none;
+			vertical-align: middle;
+			}
+		.Submit1:hover {
+			border-top-color: #09e3d1;
+			background: #09e3d1;
+			color: #130abd;
+			}
+		.Submit1:active {
+			border-top-color: #1b435e;
+			background: #1b435e;
+			}
+		.fail{
+		border:3px solid red;
+		font-weight:bold;
+		color:red;
+		background:pink;
+		}
+		.success{
+		border:3px solid green;
+		font-weight:bold;
+		color:green;
+		background:lightgreen;
+		}
+		.error{
+			color:red;
+		}
+		.confirm{
+			color:lightgreen;
+			font-weight:bold;
+		}
+		.formatting{
+			font: large bold;
+             color: cyan;
+		}
