@@ -2,6 +2,7 @@ function submitForm() {
 		var ERR=0;
 		
 		var Fname = document.getElementById('Fname');
+		/* validating a full name string requires at least name*/
 		var RXFname = /[a-zA-Z]+ +[a-zA-Z]+/;
 		if (!RXFname.test(Fname.value)){FNE.className="error";FNE.innerHTML = "Required Field Must Contain Only Letters"; Fname.className="fail"; ERR=1;}
 			else{FNE.className="confirm";FNE.innerHTML = "Success"; Fname.className="success";}
